@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <div class="form">
+      <h3>Resigter</h3>
+
+      <label for="username">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Enter your name"
+      />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        placeholder="Enter password"
+      />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        placeholder="Enter your email"
+      />
+      <p id="result"></p>
+
+      <button type="button" onclick="AddUser()" class="btn btn-primary w-100">
+        Sign up
+      </button>
+      <p class="text-white p-3 text-center">
+        You have an account?
+        <a href="login.html" class="text-decoration-none">SignIN</a>
+      </p>
+    </div>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
